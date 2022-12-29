@@ -1,22 +1,20 @@
 {
-  "name": "flight_project",
+  "name": "flights_project(login)",
   "version": "1.0.0",
   "description": "",
-  "main": "Server_(app).js",
+  "main": "server.js",
   "scripts": {
-    "start": "node Server_(app).js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node generateKey.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "cookie-parser": "^1.4.6",
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
+    "cookieparser": "^0.1.0",
     "express": "^4.18.2",
-    "jsonwebtoken": "^8.5.1",
-    "knex": "^2.3.0",
-    "mysql": "^2.18.1",
-    "nodemon": "^2.0.20"
+    "jsonwebtoken": "^8.5.1"
   }
 }
